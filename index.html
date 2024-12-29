@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benson Christopher Emuzo - Backend Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">Benson Christopher Emuzo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero min-vh-100 d-flex align-items-center">
+        <div class="container text-center">
+            <div class="profile-image mx-auto mb-4">
+                <img src="/placeholder.svg?height=300&width=300" alt="Benson Christopher Emuzo" class="img-fluid">
+            </div>
+            <p class="greeting mb-2">Hello, I'm</p>
+            <h1 class="display-4 fw-bold mb-3">Benson Christopher Emuzo</h1>
+            <h2 class="h3 mb-4">Backend Software Engineer</h2>
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="#" class="btn btn-outline-primary px-4">Download CV</a>
+                <a href="#contact" class="btn btn-dark px-4">Contact Info</a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center mb-5">
+                        I'm a passionate backend software engineer with expertise in Node.js, Express, MongoDB, PostgreSQL, and MySQL. My focus is on building efficient and scalable APIs that power modern web applications. With a strong foundation in backend technologies and experience in writing unit tests using Jest and Supertest, I bring a comprehensive approach to software development.
+                    </p>
+                    <div class="skills-container">
+                        <h3 class="h4 text-center mb-4">Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="bi bi-hdd-stack"></i>
+                                </div>
+                                <h4 class="h5">Backend</h4>
+                                <ul class="list-unstyled">
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>PHP (basic)</li>
+                                </ul>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="bi bi-database"></i>
+                                </div>
+                                <h4 class="h5">Databases</h4>
+                                <ul class="list-unstyled">
+                                    <li>MongoDB</li>
+                                    <li>PostgreSQL</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="bi bi-tools"></i>
+                                </div>
+                                <h4 class="h5">Tools & Testing</h4>
+                                <ul class="list-unstyled">
+                                    <li>Swagger</li>
+                                    <li>Postman</li>
+                                    <li>Jest & Supertest</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Experience</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="experience-card mb-4">
+                        <h3 class="h5">Senior Backend Developer</h3>
+                        <p class="company">Tech Solutions Inc.</p>
+                        <p class="period">January 2020 - Present</p>
+                        <ul class="list-unstyled">
+                            <li>Develop and maintain robust RESTful APIs using Node.js and Express</li>
+                            <li>Design and implement efficient database solutions with MongoDB and PostgreSQL</li>
+                            <li>Create comprehensive API documentation using Swagger</li>
+                            <li>Implement and maintain unit tests using Jest and Supertest</li>
+                            <li>Collaborate with frontend developers to ensure seamless integration</li>
+                        </ul>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="h5">Backend Developer</h3>
+                        <p class="company">Innovative Startups Ltd.</p>
+                        <p class="period">June 2017 - December 2019</p>
+                        <ul class="list-unstyled">
+                            <li>Built and maintained backend services using Node.js and Express</li>
+                            <li>Worked with MySQL databases and basic PHP applications</li>
+                            <li>Implemented RESTful APIs for various client projects</li>
+                            <li>Utilized Postman for API testing and development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3 class="h5">E-commerce API Platform</h3>
+                        <p>A comprehensive RESTful API built with Node.js and Express, featuring user authentication, product management, and order processing. This scalable solution integrates with MongoDB for efficient data storage and retrieval.</p>
+                        <div class="tech-stack">
+                            <span class="badge">Node.js</span>
+                            <span class="badge">Express</span>
+                            <span class="badge">MongoDB</span>
+                            <span class="badge">Swagger</span>
+                            <span class="badge">Jest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3 class="h5">Task Management System</h3>
+                        <p>A robust backend service for task management with user roles, task assignment, and real-time notifications. This project showcases the use of PostgreSQL for relational data and includes a basic Electron.js desktop client.</p>
+                        <div class="tech-stack">
+                            <span class="badge">Node.js</span>
+                            <span class="badge">Express</span>
+                            <span class="badge">PostgreSQL</span>
+                            <span class="badge">Electron.js</span>
+                            <span class="badge">Supertest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="mb-4">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-info">
+                        <p><i class="bi bi-envelope-fill"></i> benson.emuzo@example.com</p>
+                        <p><i class="bi bi-geo-alt-fill"></i> Lagos, Nigeria</p>
+                        <div class="social-links mt-4">
+                            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbarToggler = document.querySelector('.navbar-toggler');
+            navbarToggler.addEventListener('click', function() {
+                this.classList.toggle('is-active');
+            });
+        });
+    </script>
+</body>
+</html>
+
