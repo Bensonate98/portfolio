@@ -189,9 +189,10 @@ section h2::after {
   left: 50%;
   transform: translateX(-50%); 
   bottom: -10px;
-  width: 60px;
+  width: 100px;
   height: 3px;
   background: #0984e3;
+  border-radius: 15px;;
 }
 
 /* Enhanced Technical Skills Section */
@@ -481,5 +482,9 @@ html {
 ::selection {
   background: rgba(9,132,227,0.2);
   color: #2d3436;
+}
+
+.border-bluish {
+  border: 1px solid #0984e3;
 }
 
