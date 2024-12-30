@@ -1,0 +1,8 @@
+User-agent: HTTrack
+Disallow: /
+User-agent: webzip
+Disallow: /
+User-agent: wget
+Disallow: /
+User-agent: *
+Disallow: /
