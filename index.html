@@ -46,13 +46,13 @@
     <section class="hero min-vh-100 d-flex align-items-center">
         <div class="container text-center">
             <div class="profile-image mx-auto mb-4">
-                <img src="profile.jpg" alt="profile image" class="img-fluid border-bluish">
+                <img src="assets/img/profile.jpg" alt="profile image" class="img-fluid border-bluish">
             </div>
             <p class="greeting mb-2">Hello, I'm</p>
             <h2 class="display-5 fw-bold mb-3">Benson Christopher</h2>
             <h3 class="h3 mb-4">Software Engineer</h3>
             <div class="d-flex justify-content-center gap-3 mb-4">
-                <a href="#" class="btn btn-outline-primary px-4">Download CV</a>
+                <a href="assets/files/Benson SE.pdf" download="Benson Christopher.pdf" class="btn btn-outline-primary px-4">Download CV</a>
                 <a href="#contact" class="btn btn-dark px-4">Contact Info</a>
             </div>
             <div class="social-links">
@@ -69,7 +69,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <p class="text-center mb-5">
-                        I'm that software engineer you would want to hire. I have keen interest in Backend engineering, with expertise in Node.js, Express, Typescript, MongoDB, PostgreSQL, and MySQL. My focus is on building efficient and scalable APIs that power modern web, mobile and desktop applications. With a strong foundation in backend technologies, api documentation and experience in writing unit tests using Jest and Supertest, I bring a comprehensive approach to software development. I don't just build these APIs; I test them and I document them for seamless integration with the client-side. Aside focusing on backend, I'm also proficient in front end frameworks like bootstrap and electronJs for desktop applications. Hence with these, I can also build fullstack applications
+                        I'm that software engineer you would want to hire. I have keen interest in Backend engineering, with expertise in Node.js, Express, Typescript, MongoDB, PostgreSQL, MySQL and also a touch of PHP. My focus is on building efficient and scalable APIs that power modern web, mobile and desktop applications. With a strong foundation in backend technologies, api documentation and experience in writing unit tests using Jest and Supertest, I bring a comprehensive approach to software development. I don't just build these APIs; I test them and I document them for seamless integration with the client-side. Aside focusing on backend, I'm also proficient in front end frameworks like bootstrap and electronJs for desktop applications. Hence with these, I can also build fullstack applications
                     </p>
                     <div class="skills-container">
                         <h3 class="h4 text-center mb-4">Technical Skills</h3>
@@ -82,8 +82,8 @@
                                 <ul class="list-unstyled">
                                     <li>Node.js</li>
                                     <li>Express</li>
-                                    <li>Types</li>
-                                    <li>PHP (basic)</li>
+                                    <li>TypeScript</li>
+                                    <li>PHP (basics)</li>
                                 </ul>
                             </div>
                             <div class="skill-item">
@@ -138,7 +138,7 @@
                         <h3 class="h5">Software Engineer</h3>
                         <p class="company">Media Deal</p>
                         <p class="period">August 2024 - Present</p>
-                        <ul class="list-unstyled">
+                        <ul class="list-square">
                             <li>Develop and maintain the media deal landing page.</li>
                             <li>Collaborate with other software engineers in making technical decisions regarding the media deal laravel backend</li>
                         </ul>
@@ -147,8 +147,8 @@
                         <h3 class="h5">Backend Engineer (Intern)</h3>
                         <p class="company">InternPulse</p>
                         <p class="period">October 2024 - December 2024</p>
-                        <ul class="list-unstyled">
-                          <li>Worked on the backend APIs for RenergyHub; an ecommerce web application that connects vendors and consumers of renewable energy products (microservice). I was part of the amazing team of about 15 backend engineers that worked on the APIs for this application, also worked closely with frontend engineers.</li>
+                        <ul class="">
+                          <li>Worked on the backend APIs for <a href="https://www.renergyhub.com.ng/" class="" target="_blank">RenergyHub</a> ; an ecommerce web application that connects vendors and consumers of renewable energy products (microservice). I was part of the amazing team of about 15 backend engineers that worked on the APIs for this application, also worked closely with frontend engineers.</li>
                             <li>Built APIs for google and facebook OAuth using passportJs.</li>
                             <li>Worked closely with another backend engineer to implement stateless authentication with JWT.</li>
                             <li>Built CRUD APIs that handle product management.</li>
@@ -168,31 +168,68 @@
             <div class="row justify-content-center g-4">
                 <div class="col-md-6">
                     <div class="project-card">
-                        <h3 class="h5">RenergyHub</h3>
-                        <p>An ecommerce platform that connects sellers and buyers of renewable energy products. This scalable solution integrates with MongoDB for efficient data storage and retrieval.</p>
-                        <div class="tech-stack">
-                            <span class="badge">Node.js</span>
-                            <span class="badge">Express</span>
-                            <span class="badge">MongoDB</span>
-                            <span class="badge">Swagger</span>
-                            <span class="badge">Jest</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="project-card">
-                        <h3 class="h5">Task Management System</h3>
-                        <p>A robust backend service for task management with user roles, task assignment, and real-time notifications. This project showcases the use of PostgreSQL for relational data and includes a basic Electron.js desktop client.</p>
+                      <a href="https://www.renergyhub.com.ng/" class="text-decoration-none text-dark" target="_blank">
+                        <h3 class="h5 text-bluish">RenergyHub</h3>
+                        <p>A multi-vendor ecommerce platform that connects sellers and consumers of renewable energy products. This scalable solution integrates with MongoDB for efficient data storage and retrieval.</p>
                         <div class="tech-stack">
                             <span class="badge">Node.js</span>
                             <span class="badge">Express</span>
                             <span class="badge">PostgreSQL</span>
-                            <span class="badge">Electron.js</span>
-                            <span class="badge">Supertest</span>
+                            <span class="badge">Postman</span>
                         </div>
+                      </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card">
+                      <a href="https://mediadeal.ng/" class="text-decoration-none text-dark" target="_blank">
+                        <h3 class="h5 text-bluish">Media Deal</h3>
+                        <p>Media Deal is a streamlined platform for buying and selling radio, TV, and online advertisements, facilitating seamless connections between advertisers, media organizations, and marketers.
+                          .</p>
+                        <div class="tech-stack">
+                            <span class="badge">HTML & CSS</span>
+                            <span class="badge">BootStrap</span>
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Laravel</span>
+                            <span class="badge">MySQL</span>
+                        </div>
+                      </a>
                     </div>
                 </div>
             </div>
+
+            <div class="row justify-content-center g-4 my-4">
+              <div class="col-md-6">
+                <div class="project-card">
+                  <a href="https://github.com/AnaeleJoshua/pregNANT" class="text-decoration-none text-dark" target="_blank">
+                    <h3 class="h5 text-bluish">pregNANT (Desktop App)</h3>
+                    <p>A pregnancy expert system  that determines a patient's pregnancy status based on some data provided. Buiding this app made me explore electronJs and its integration with expressJs.</p>
+                    <div class="tech-stack">
+                        <span class="badge">ElectronJs</span>
+                        <span class="badge">Node Js</span>
+                        <span class="badge">Express</span>
+                        <span class="badge">SQLite</span>
+                        <span class="badge">Sequelize</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="project-card">
+                    <a href="https://documenter.getpostman.com/view/36782116/2sAY4uBNZG" class="text-decoration-none text-dark" target="_blank">
+                      <h3 class="h5 text-bluish">Library Management System</h3>
+                      <p>A robust backend CRUD APIs for library management. Each endpoint is tested and documented using postman</p>
+                      <div class="tech-stack">
+                          <span class="badge">Node.js</span>
+                          <span class="badge">Express</span>
+                          <span class="badge">MongoDB & Mongoose</span>
+                          <span class="badge">Postman</span>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+              
+          </div>
         </div>
     </section>
 
